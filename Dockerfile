@@ -19,4 +19,4 @@ RUN apt-get update && \
   apt-get update && \
   apt-get -y install nodejs docker-ce
 
-RUN npm i gulp-cli -g
+RUN npm i yarn gulp-cli -g
