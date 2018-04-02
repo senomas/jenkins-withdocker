@@ -20,3 +20,4 @@ RUN apt-get update && \
   apt-get -y install nodejs docker-ce
 
 RUN npm i yarn gulp-cli -g
+RUN docker login code.senomas.com:5000 -u dev -p dodol123
